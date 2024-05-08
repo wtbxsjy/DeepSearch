@@ -1,0 +1,26 @@
+Meta:
+  max_charge: 6
+  start_mz: 0.
+  max_mz: 2000.
+  max_npeaks: 512
+  min_npeaks: 64
+  max_pep_len: 32
+  min_pep_len: 6
+  num_aa: 21 
+  bias_max_charge: 6
+
+Model:
+  params:
+    spectrum_dim: 768
+    spectrum_hidden: 2048
+    n_enc_layer: 8
+    peptide_dim: 768
+    peptide_hidden: 2048 
+    n_uni_dec_layer: 8
+    n_mul_dec_layer: 8
+    output_dim: 512
+    n_head: 8
+    dropout: 0. 
+    pad_id: 0
+    bias_dim: 36
+ 
