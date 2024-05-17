@@ -1,3 +1,16 @@
+Metadata-Version: 2.1
+Name: DeepSearch
+Version: 1.0
+Summary: Contrastive tandem mass spectrometry database search engine
+Home-page: UNKNOWN
+Author: Y. Y
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
 # DeepSearch
 
 ## End-to-end Database Search for Tandem Mass Spectrometry
@@ -64,5 +77,4 @@ DeepSearch is trained on the [MassIVE-KB](https://massive.ucsd.edu/ProteoSAFe/st
 ```
 python ./bin/train_model.py --help
 ```
-DeepSearch is trained with a batch size of 15,360 using gradient accumulation. Please modify the batch size based on your hardware. We recommend distributed training on clusters. For reference, DeepSearch was trained with 8 A100-SXM 40GB GPUs for 10 epochs. 
 
