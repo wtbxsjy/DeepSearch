@@ -4,7 +4,7 @@
 
 DeepSearch is a deep learning-based tool for peptide identification from tandem mass spectrometry data. The model uses a modified transformer-based encoder-decoder architecture. DeepSearch is trained under the contrastive learning framework coupled with a *de novo* sequencing task. DeepSearch learns a joint embedding space across the modality of peptide sequence and tandem mass spectra. 
 
-For more details, see our preprint at https://arxiv.org/abs/2405.06511v1.
+For more details, see our paper at https://www.nature.com/articles/s42256-024-00960-1. The parameter files can be downloaded at https://doi.org/10.6084/m9.figshare.25998271
 
 This software is free to use for non-commercial purpose. 
 
